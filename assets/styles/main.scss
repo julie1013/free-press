@@ -1,0 +1,64 @@
+$black: #000;
+
+.container-fluid {
+  padding: 0;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.hidden {
+  visibility: none;
+}
+
+header {
+  border: 1px solid $black;
+  height: 125px;
+  padding-left: 15px;
+}
+
+.description {
+  clear: both;
+  float: left;
+}
+
+.header-menu {
+  border: 1px solid $black;
+  float: right;
+  list-style: none;
+  margin-right: 20px;
+  width: 260px;
+
+    li {
+      float: left;
+      margin-right: 20px;
+    }
+}
+
+//landing view
+
+.landing {
+  border: 1px solid $black;
+  width: 100%;
+}
+
+.newspaper {
+  border: 1px solid $black;
+  margin: 0 auto;
+  width: 515px;
+}
+
+.newspaper-pic {
+  border: 1px solid $black;
+}
+
+.congress {
+  border: 1px solid $black;
+  margin: 0 auto;
+  width: 550px;
+}
