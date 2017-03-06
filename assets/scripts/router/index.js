@@ -7,6 +7,8 @@ const browserPlugin = require('router5/plugins/browser').default;
 
 const routes = [
       { name: 'index', path: '/'},
+      { name: 'who-we-are', path: '/who-we-are'},
+      { name: 'what-we-do', path: '/what-we-do'},
 ];
 
 const options = {
