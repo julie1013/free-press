@@ -1,4 +1,6 @@
 $black: #000;
+$blue: #00f;
+
 
 .container-fluid {
   padding: 0;
@@ -16,15 +18,30 @@ $black: #000;
   visibility: none;
 }
 
+body {
+  color: $blue;
+  font-family: Arial;
+}
+
+//header
+
 header {
-  border: 1px solid $black;
+  border: 2px solid $blue;
   height: 125px;
   padding-left: 15px;
 }
 
-.description {
-  clear: both;
+.logo {
+  border: 1px solid $black;
   float: left;
+  height: 125px;
+  width: 125px;
+}
+
+.description {
+  border: 1px solid $black;
+  float: left;
+  margin-left: 25px;
 }
 
 .header-menu {
@@ -32,18 +49,21 @@ header {
   float: right;
   list-style: none;
   margin-right: 20px;
+  margin-top: 50px;
   width: 260px;
 
-    li {
-      float: left;
-      margin-right: 20px;
-    }
+  li {
+    float: left;
+    margin-right: 20px;
+  }
 }
 
 //landing view
 
 .landing-view {
   border: 1px solid $black;
+  height: 400px;
+  margin-top: 75px;
   width: 100%;
 }
 
@@ -62,3 +82,27 @@ header {
   margin: 0 auto;
   width: 550px;
 }
+
+// @media (max-width: 500px){
+//   header {
+//     min-height: 125px;
+//   }
+//
+//   .description {
+//     display: block;
+//     float: left;
+//     padding: 5px;
+//     width: 100%;
+//   }
+//
+//   .header-menu {
+//     float: left;
+//   }
+//
+//   .header-menu li {
+//     display: block;
+//     float: left;
+//     padding: 5px;
+//     width: 100%;
+//   }
+// }
