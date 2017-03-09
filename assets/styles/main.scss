@@ -29,6 +29,8 @@ header {
   border: 2px solid $blue;
   height: 125px;
   padding-left: 15px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -63,13 +65,13 @@ header {
 .landing-view {
   border: 1px solid $black;
   height: 400px;
-  margin-top: 75px;
+  margin-top: 125px;
   width: 100%;
 }
 
 .newspaper {
   border: 1px solid $black;
-  margin: 0 auto;
+  margin-left: 100px;
   width: 515px;
 }
 
@@ -79,7 +81,8 @@ header {
 
 .congress {
   border: 1px solid $black;
-  margin: 0 auto;
+  margin-left: 100px;
+  margin-top: 25px;
   width: 550px;
 }
 
