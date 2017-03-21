@@ -1,5 +1,6 @@
 $black: #000;
 $blue: #00f;
+$gray: #888;
 
 
 .container-fluid {
@@ -27,6 +28,7 @@ body {
 
 header {
   border: 2px solid $blue;
+  box-sizing: content-box;
   height: 125px;
   padding-left: 15px;
   position: fixed;
@@ -44,6 +46,7 @@ header {
   border: 1px solid $black;
   float: left;
   margin-left: 25px;
+  padding: 0 8px;
 }
 
 .header-menu {
@@ -72,6 +75,7 @@ header {
 .newspaper {
   border: 1px solid $black;
   margin-left: 165px;
+  margin-top: 20px;
   width: 515px;
 }
 
@@ -84,6 +88,19 @@ header {
   margin-left: 165px;
   margin-top: 25px;
   width: 550px;
+}
+
+//who-we-are
+
+.who-blurb {
+  border: 1px solid $black;
+  box-shadow: 10px 10px 5px $gray;
+  color: $black;
+  height: 400px;
+  margin-left: 165px;
+  margin-top: 145px;
+  padding: 0 8px;
+  width: 515px;
 }
 
 // @media (max-width: 500px){
