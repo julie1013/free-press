@@ -105,6 +105,17 @@ header {
   width: 515px;
 }
 
+.what-do {
+  border: 1px solid $black;
+  box-shadow: 10px 10px 5px $gray;
+  color: $black;
+  height: 200px;
+  margin-left: 165px;
+  margin-top: 145px;
+  padding: 0 8px;
+  width: 515px;
+}
+
 // @media (max-width: 500px){
 //   header {
 //     min-height: 125px;
