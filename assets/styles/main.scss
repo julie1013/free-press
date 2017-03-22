@@ -24,6 +24,14 @@ body {
   font-family: Arial;
 }
 
+.view-state-div {
+  border: 1px solid $black;
+  box-sizing: content-box;
+  height: 500px;
+  margin-top: 127px;
+  width: 100%;
+}
+
 //header
 
 header {
@@ -63,20 +71,32 @@ header {
   }
 }
 
-//landing view
+//footer
 
-.landing-view {
+footer {
   border: 1px solid $black;
-  box-sizing: content-box;
-  height: 450px;
-  margin-top: 127px;
-  width: 100%;
+  color: $black;
+  height: 100px;
+  text-align: center;
+
+  .social-media {
+    list-style: none;
+    margin: 0 auto;
+    width: 200px;
+
+    img {
+      float: left;
+      width: 50px;
+    }
+  }
 }
+
+//landing view
 
 .newspaper {
   box-shadow: 10px 10px 5px $gray;
   margin-left: 165px;
-  margin-top: 20px;
+  margin-top: 50px;
   width: 515px;
 }
 
@@ -100,18 +120,19 @@ header {
   color: $black;
   height: 400px;
   margin-left: 165px;
-  margin-top: 145px;
+  margin-top: 50px;
   padding: 0 8px;
   width: 515px;
 }
 
-.what-do {
+//what-do
+
+.what-do-blurb {
   border: 1px solid $black;
   box-shadow: 10px 10px 5px $gray;
   color: $black;
-  height: 200px;
   margin-left: 165px;
-  margin-top: 145px;
+  margin-top: 75px;
   padding: 0 8px;
   width: 515px;
 }
