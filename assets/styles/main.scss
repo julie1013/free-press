@@ -10,14 +10,6 @@ $yellow: #fff9a2;
   padding: 0;
 }
 
-.clearfix::after {
-  clear: both;
-  content: '';
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-
 .hidden {
   visibility: none;
 }
@@ -27,17 +19,20 @@ body {
 }
 
 .view-state-div {
+  background: url('../images/newspaper-background.jpg');
+  background-size: cover;
   box-sizing: content-box;
   height: 500px;
-  margin-top: 155px;
+  margin-top: 135px;
+  padding-top: 50px;
   width: 100%;
 }
 
 //header
 
 header {
-  background: $yellow;
-  box-shadow: 0 0 5px 10px $yellow;
+  background: $white;
+  box-shadow: 0 0 5px 10px $white;
   height: 125px;
   padding-left: 15px;
   position: fixed;
@@ -77,13 +72,14 @@ header {
   float: right;
   font-size: 20px;
   list-style: none;
-  margin-top: 50px;
+  margin-top: 25px;
   width: 600px;
 
   li {
-    background: $white;
+    background: $black;
     border-radius: 50%;
-    box-shadow: 0 0 5px 10px $white;
+    box-shadow: 0 0 5px 10px $black;
+    color: $white;
     float: left;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     height: 40px;
@@ -93,7 +89,7 @@ header {
     width: 25%;
 
     a {
-      color: $dark-blue;
+      color: $white;
       text-decoration: none;
     }
 
@@ -107,11 +103,24 @@ header {
   }
 }
 
+// .congress {
+//   color: $black;
+//   float: right;
+//   font-size: 15px;
+//   font-weight: bold;
+//   height: 20px;
+//   margin: 0 auto;
+//   margin-right: 40px;
+//   margin-top: 5px;
+//   text-align: center;
+//   width: 550px;
+// }
+
 //footer
 
 footer {
-  background-color: $yellow;
-  box-shadow: 0 0 5px 10px $yellow;
+  background-color: $white;
+  box-shadow: 0 0 5px 10px $white;
   color: $black;
   height: 100px;
   text-align: center;
@@ -131,34 +140,20 @@ footer {
 
 //landing view
 
-.newspaper {
-  box-shadow: 10px 10px 5px $gray;
-  margin-left: 165px;
-  margin-top: 50px;
-  width: 515px;
-}
-
-.newspaper-pic {
-  border: 1px solid $black;
-}
-
-.congress {
-  border: 1px solid $black;
-  color: $black;
-  margin-left: 165px;
-  margin-top: 25px;
-  width: 550px;
-}
+// .newspaper {
+//   margin-left: 165px;
+//   margin-top: 50px;
+//   width: 515px;
+// }
 
 //who-we-are
 
 .who-blurb {
+  background: $white;
   border: 1px solid $black;
-  box-shadow: 10px 10px 5px $gray;
   color: $black;
   height: 400px;
   margin-left: 165px;
-  margin-top: 50px;
   padding: 0 8px;
   width: 515px;
 }
@@ -166,11 +161,10 @@ footer {
 //what-do
 
 .what-do-blurb {
+  background: $white;
   border: 1px solid $black;
-  box-shadow: 10px 10px 5px $gray;
   color: $black;
   margin-left: 165px;
-  margin-top: 75px;
   padding: 0 8px;
   width: 515px;
 }
