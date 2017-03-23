@@ -96,6 +96,10 @@ header {
       color: $dark-blue;
       text-decoration: none;
     }
+
+    a:hover {
+      font-size: 110%;
+    }
   }
 
   li:last-of-type {
