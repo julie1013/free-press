@@ -23,9 +23,10 @@ body {
   background-size: cover;
   box-sizing: content-box;
   height: 500px;
+  margin: 0 auto;
   margin-top: 135px;
   padding-top: 50px;
-  width: 100%;
+  width: 80%;
 }
 
 //header
@@ -103,42 +104,34 @@ header {
   }
 }
 
-// .congress {
-//   color: $black;
-//   float: right;
-//   font-size: 15px;
-//   font-weight: bold;
-//   height: 20px;
-//   margin: 0 auto;
-//   margin-right: 40px;
-//   margin-top: 5px;
-//   text-align: center;
-//   width: 550px;
-// }
+//landing view
 
-//footer
+.landing-view {
+  background: none;
+  height: 650px;
+  margin: 0 auto;
 
-footer {
-  background-color: $white;
-  box-shadow: 0 0 5px 10px $white;
-  color: $black;
-  height: 100px;
-  text-align: center;
-
-  .social-media {
-    list-style: none;
+  .newspaper {
+    background: url('../images/newspaper.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    height: 450px;
     margin: 0 auto;
-    padding-top: 20px;
-    width: 200px;
+    margin-top: 100px;
+    width: 70%;
+  }
 
-    img {
-      float: left;
-      width: 50px;
-    }
+  .congress {
+    color: $black;
+    font-size: 15px;
+    font-weight: bold;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    width: 450px;
   }
 }
-
-//landing view
 
 //who-we-are
 
@@ -161,6 +154,28 @@ footer {
   margin-left: 165px;
   padding: 0 8px;
   width: 515px;
+}
+
+//footer
+
+footer {
+  background-color: $white;
+  box-shadow: 0 0 5px 10px $white;
+  color: $black;
+  height: 100px;
+  text-align: center;
+
+  .social-media {
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 200px;
+
+    img {
+      float: left;
+      width: 50px;
+    }
+  }
 }
 
 // @media (max-width: 500px){
