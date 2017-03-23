@@ -140,17 +140,11 @@ footer {
 
 //landing view
 
-// .newspaper {
-//   margin-left: 165px;
-//   margin-top: 50px;
-//   width: 515px;
-// }
-
 //who-we-are
 
 .who-blurb {
   background: $white;
-  border: 1px solid $black;
+  box-shadow: 0 0 5px 10px $white;
   color: $black;
   height: 400px;
   margin-left: 165px;
@@ -162,7 +156,7 @@ footer {
 
 .what-do-blurb {
   background: $white;
-  border: 1px solid $black;
+  box-shadow: 0 0 5px 10px $white;
   color: $black;
   margin-left: 165px;
   padding: 0 8px;
