@@ -20,14 +20,21 @@ body {
 }
 
 .view-state-div {
-  background: url('../images/newspaper-background.jpg');
   background-size: cover;
   box-sizing: content-box;
   height: 500px;
   margin: 0 auto;
   margin-top: 135px;
+  overflow: hidden;
   padding-top: 50px;
+  position: relative;
   width: 80%;
+
+  img {
+    opacity: .6;
+    position: absolute;
+    width: 100%;
+  }
 }
 
 //header
@@ -108,10 +115,13 @@ header {
 
 //landing view
 
+
 .landing-view {
-  background: none;
+  box-sizing: content-box;
   height: 650px;
   margin: 0 auto;
+  padding-top: 50px;
+  width: 80%;
 
   .newspaper {
     background: url('../images/newspaper.jpg');
@@ -144,7 +154,9 @@ header {
   color: $dark-blue;
   height: 400px;
   margin-left: 165px;
+  margin-top: 25px;
   padding: 0 8px;
+  position: absolute;
   width: 515px;
 }
 
@@ -155,6 +167,8 @@ header {
   box-shadow: 0 0 5px 10px $white;
   color: $dark-blue;
   margin-left: 165px;
+  margin-top: 25px;
+  position: absolute;
   padding: 0 8px;
   width: 515px;
 }
