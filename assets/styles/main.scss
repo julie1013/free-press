@@ -1,6 +1,7 @@
 $black: #000;
 $blue: #00f;
-$dark-blue: #1d2849;
+$dark-blue: #004de6;
+$medium-blue: #69f;
 $gray: #888;
 $white: #fff;
 $yellow: #fff9a2;
@@ -46,7 +47,7 @@ header {
   text-shadow: 1px 1px 2px $black;
 
   a {
-    color: $dark-blue;
+    color: $medium-blue;
     text-decoration: none;
   }
 }
@@ -122,7 +123,7 @@ header {
   }
 
   .congress {
-    color: $black;
+    color: $dark-blue;
     font-size: 15px;
     font-weight: bold;
     height: 50px;
@@ -138,7 +139,7 @@ header {
 .who-blurb {
   background: $white;
   box-shadow: 0 0 5px 10px $white;
-  color: $black;
+  color: $dark-blue;
   height: 400px;
   margin-left: 165px;
   padding: 0 8px;
@@ -150,7 +151,7 @@ header {
 .what-do-blurb {
   background: $white;
   box-shadow: 0 0 5px 10px $white;
-  color: $black;
+  color: $dark-blue;
   margin-left: 165px;
   padding: 0 8px;
   width: 515px;
@@ -161,7 +162,6 @@ header {
 footer {
   background-color: $white;
   box-shadow: 0 0 5px 10px $white;
-  color: $black;
   height: 100px;
   text-align: center;
 
